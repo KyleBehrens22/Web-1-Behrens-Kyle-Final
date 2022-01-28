@@ -11,12 +11,12 @@ const App = () => {
 
     return (
         <BrowserRouter>
-        <AppStyled className='App'> 
-            <Header />
-            <Nav />
-            <Main />
-            <Footer />
-        </AppStyled>
+            <AppStyled className='App'> 
+                <Header />
+                <Nav />
+                <Main />
+                <Footer />
+            </AppStyled>
         </BrowserRouter>
     );
 }
