@@ -39,7 +39,7 @@ const MainMenuStyled = styled.div`
         &:hover {
             background-color: #038484;
         }
-        &.actve {
+        &.active {
             color: #007373;
             background-color: #AEE6E6;
         }
