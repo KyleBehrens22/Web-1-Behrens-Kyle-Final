@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Logo from './SiteTitle.jsx';
-import SiteTitle from './Logo.jsx';
+import Logo from './Logo.jsx';
+import SiteTitle from './SiteTitle.jsx';
 
 const Footer = () => {
 
