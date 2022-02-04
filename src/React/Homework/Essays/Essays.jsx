@@ -33,11 +33,23 @@ const Essays = () => {
             <li><b>Back End Developer:</b> Back end developers make web pages and apps work through back end languages and frameworks such as Java or Ruby on Rails. They are in charge of how the site runs on the server side of things. Back end developers write code to help a database and an application communicate with one another. Back end developers are the heavy lifters behind the scene, they don’t make anything look better but without their code the app would fail.</li>
             <li><b>Web Designer:</b> Web Designers are more visual and they decide the layout of an app or website i.e. what the menus should look like as well as the fonts and colors. Whatever they make the Front End and Back End Developer have to follow. Web Designers typically have UI and user experience knowledge to make the site as easy as possible for users to navigate.</li>
             </ul>
-            </Essay>
+        </Essay>
             <Essay q='S6. Distinguish the difference between Site Relative, Document Relative, and Absolute Paths.'>
             <ul>
+            <li><b>Site Relative:</b> The address of the link is relative to the overall site. Site-relative links always begin with “/“. The slash means that the address is related to the web server’s notion of the site root. These are also used to link other websites that are located on the same domain. Instead of having the full path laid out you can just have the path from the working directory. It makes it easier to navigate vs using absolute paths.</li> 
+            <li><b>Document Relative:</b> Relates to any link that is not a site-relative link. These links are relative to the document that contains them. Document-relative links are preferred when working on smaller apps or web sites. They can also be tested on the creators computer that does not host a web server.</li>
+            <li><b>Absolute Paths</b> Is the entire url including the http:// or https:// and the root of the address. It is a path that describes the location of files or folders no matter the current working directory. It is the complete location of a file or directory. Absolute path’s can link other websites that are not locked on the same domain. </li>
             </ul>
         </Essay>
+            <Essay q='S7. What is the difference between jpg, gif, png and SVG images?'>
+            <ul>
+            <li><b>JPG:</b></li>
+            <li><b>GIF:</b></li>
+            <li><b>GIF:</b></li>
+            <li><b>SVG</b></li>
+            </ul>
+        </Essay>
+        
     </EssaysStyled>
     )
 }
