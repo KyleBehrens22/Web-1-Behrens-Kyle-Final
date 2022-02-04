@@ -47,8 +47,14 @@ const MainStyled = styled.main`
     min-height: 600px;
     }
 
-    h1 (
+    h1 {
         margin: 0px 0px 20px;
         font-size: 40px;
-    )
+    }
+
+    h3 {
+        margin: 0px 0px 20px;
+        font-size: 30px;
+    }
+
 `;
