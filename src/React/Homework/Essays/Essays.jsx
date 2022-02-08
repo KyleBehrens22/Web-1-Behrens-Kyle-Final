@@ -49,8 +49,18 @@ const Essays = () => {
             <li><b>SVG</b> Scalable Vector Graphic is a lossless format that is able to scale up and down with no loss in quality. SVGs also support transparency which is great for placing logos over photos on your app. Other than photos this is probably the best option when applying graphics to your web page.	</li>
             </ul>
         </Essay>
-        
-    </EssaysStyled>
+            <Essay q='S8. Define the following roles: Project Manager, Business Analyst, Scrum Master, UX designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps.'>
+            <ul>
+            <li><b>Project Manager:</b></li>
+            <li><b>Business Analyst:</b></li>
+            <li><b>Scrum Master:</b></li>
+            <li><b>UX Designer:</b></li>
+            <li><b>Web Developer/Engineer:</b></li>
+            <li><b>Quality Assurance Tester:</b></li>
+            <li><b>DevOps:</b></li>
+            </ul>
+            </Essay>
+        </EssaysStyled>
     )
 }
 
