@@ -43,10 +43,10 @@ const Essays = () => {
         </Essay>
             <Essay q='S7. What is the difference between jpg, gif, png and SVG images?'>
             <ul>
-            <li><b>JPG:</b></li>
-            <li><b>GIF:</b></li>
-            <li><b>GIF:</b></li>
-            <li><b>SVG</b></li>
+            <li><b>JPG:</b> Joint Photographic Experts group, formerly know as JPEG but shortened when they decided to make extensions 3 letters. JPGs use lossy compassion and can be compressed 10:1 without a noticeable change in image quality. JPGs are the most common image file formats for digital cameras. Preferred format for photos while PNGs are best for screenshots or logos. They struggle with sharp edges and curves.</li>
+            <li><b>GIF:</b> Graphics Interchange Format, they have a palette of up to 256 colors and also supports animations. They use a special type of compression called LZW that reduces file size without degrading the quality. They are useful for shape edged-line art with a limited number of colors, great for logos. They are commonly used for small low res animations.</li>
+            <li><b>PNG:</b> Portable Networks Graphics is a format that supports transparent unlike .JPGs. PNGs also contain an ability to use more color palettes. If you use a PNG-24 it has an unlimited color palette. PNGs are very commonly used for logos to place over things because of its ability to hold an alpha layer and there is less artifacting compared to GIFs and JPGs.  </li>
+            <li><b>SVG</b> Scalable Vector Graphic is a lossless format that is able to scale up and down with no loss in quality. SVGs also support transparency which is great for placing logos over photos on your app. Other than photos this is probably the best option when applying graphics to your web page.	</li>
             </ul>
         </Essay>
         
