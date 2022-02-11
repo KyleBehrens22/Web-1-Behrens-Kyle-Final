@@ -51,14 +51,17 @@ const Essays = () => {
         </Essay>
             <Essay q='S8. Define the following roles: Project Manager, Business Analyst, Scrum Master, UX designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps.'>
             <ul>
-            <li><b>Project Manager:</b></li>
-            <li><b>Business Analyst:</b></li>
-            <li><b>Scrum Master:</b></li>
-            <li><b>UX Designer:</b></li>
-            <li><b>Web Developer/Engineer:</b></li>
-            <li><b>Quality Assurance Tester:</b></li>
-            <li><b>DevOps:</b></li>
+            <li><b>Project Manager:</b> Determines which tasks will be carried out during the progression of a project. They also are responsible for implementing communication with the development team as well as the client. </li>
+            <li><b>Business Analyst:</b> They get together with the product owners or stakeholder and determine which features and processes can be implemented to get them their desired outcome. They are also translators between product owners and the development team, they should be well versed in both languages.</li>
+            <li><b>Scrum Master:</b> They are there to make the the whole team efficient, they give all of the instructions. Scrum master intervenes if the framework is violated. They are the person first contacted by a team member if a problem arises.</li>
+            <li><b>UX Designer:</b> Responsible for making a website or app usable, enjoyable and accessible. They need to have a good understanding of the brand and the user who will be interfacing with app. They make the app look as good as possible and efficient for the user to stay on the page and to return.</li>
+            <li><b>Web Developer/Engineer:</b> Developers design and build websites, they are responsible for what the webpage looks like and all of the technical aspects that make the site work properly. They use different web languages to develop the front-end or back-end or both sides of the webpage. </li>
+            <li><b>Quality Assurance Tester:</b> They work together with the development team to test websites and find bugs in the app. When they find these bugs its their job to work them out and find new solutions whether that be changing something in the code or finding a more efficient software.</li>
+            <li><b>DevOps:</b> They work with the web development team to build test and deploy software quickly. They implement strategies to help companies deliver applications as quickly as possible. The faster they can improve their speed the better they can serve their product owners and customers.</li>
             </ul>
+            </Essay>
+            <Essay q='S9. What is considered the right size for an image or video asset?'>
+            <p>Answer foes here Monday</p> 
             </Essay>
         </EssaysStyled>
     )
