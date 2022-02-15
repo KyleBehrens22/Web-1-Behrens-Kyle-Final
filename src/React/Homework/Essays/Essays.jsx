@@ -61,8 +61,12 @@ const Essays = () => {
             </ul>
             </Essay>
             <Essay q='S9. What is considered the right size for an image or video asset?'>
-            <p>Answer foes here Monday</p> 
+            <p>If your images are too big and unoptimized it is going to create issues for the user. If a web-page takes longer than 5 seconds to load you have a 90% probability that a user will leave the site. For full-width images the best settings are 2400x1600px and .jpegs. Full-width images should also be wide shots for when you are viewing on different devices because most-likely they will be cropped. Inside Content images it is recommended to use 1500x1000px optimized .jpegs. For video, your video should be a common aspect ratio i.e. 1920x1080, 1080x1080 or something smaller keeping the same ration like 1280x720 or 540x540. You should also use a compressed version of video for utilization on web pages, like .mp4. If you use something uncompressed like a ProRes 422 it will lead to longer load times and laggy playback. </p> 
             </Essay>
+            <Essay q='S10. What does it mean for a company to be Agile? What are the pros and cons of being agile?'>
+            <p> Answer goes here Thursday</p> 
+            </Essay>
+            
         </EssaysStyled>
     )
 }
