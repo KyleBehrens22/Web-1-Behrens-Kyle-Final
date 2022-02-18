@@ -8,8 +8,7 @@ const ActiveArea = ({activeContent, showModalUpdate}) => {
     }
 
     return (
-        <ActiveAreaStyled className='ActiveArea' onClick={ clickHandler }>
-            ActiveArea 
+        <ActiveAreaStyled className='ActiveArea' onClick={ clickHandler }> 
             { activeContent }
         </ActiveAreaStyled>
     );
@@ -18,5 +17,5 @@ const ActiveArea = ({activeContent, showModalUpdate}) => {
 export default ActiveArea;
 
 const ActiveAreaStyled = styled.div`
-    border: solid 5px purple;
+    
 `;
