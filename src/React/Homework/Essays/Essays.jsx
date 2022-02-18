@@ -64,7 +64,11 @@ const Essays = () => {
             <p>If your images are too big and unoptimized it is going to create issues for the user. If a web-page takes longer than 5 seconds to load you have a 90% probability that a user will leave the site. For full-width images the best settings are 2400x1600px and .jpegs. Full-width images should also be wide shots for when you are viewing on different devices because most-likely they will be cropped. Inside Content images it is recommended to use 1500x1000px optimized .jpegs. For video, your video should be a common aspect ratio i.e. 1920x1080, 1080x1080 or something smaller keeping the same ration like 1280x720 or 540x540. You should also use a compressed version of video for utilization on web pages, like .mp4. If you use something uncompressed like a ProRes 422 it will lead to longer load times and laggy playback. </p> 
             </Essay>
             <Essay q='S10. What does it mean for a company to be Agile? What are the pros and cons of being agile?'>
-            <p> Answer goes here Thursday</p> 
+            <p> For a company to be agile it means to be able to adjust and respond to consumer or market changes at the drop of a hat. It means that a company can adapt to any changes in the market place to continue to stay relevant and up to date with trends. A pro to being agile is being fast enough to have the competitive edge when it comes to being first in the market place. Being agile is a collaborative effort which includes positions such as Scrum Managers, UX designers and Development teams. 
+                Some cons of being agile include a difficulty in being able to determine future costs of development and implementation. Documentation starts to get buried due to the rush to push out a project, so over time there is less and less documentation to go back and review. There is also the issue of not having a finite end to a project, due to minimal planning at the beginning of a project functionality can take a hit because of that. </p> 
+            </Essay>
+            <Essay q='S11. What are testing environments? What is the difference between Local, Dev, QA and Production?'>
+            <p> Answer goes here for Monday</p>
             </Essay>
             
         </EssaysStyled>
