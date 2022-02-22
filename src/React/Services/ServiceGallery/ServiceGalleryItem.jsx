@@ -32,7 +32,7 @@ const ServiceGalleryItem = ({service}) => {
     return (
         <ServiceGalleryItemStyled className='ServiceGalleryItem'>
         <Lightbox 
-                title='Sun Pop Up'
+                title={ service.title }
                 activeContent={ <ActiveContent /> }
                 modalContent={ <ModalContent /> }
                 />
