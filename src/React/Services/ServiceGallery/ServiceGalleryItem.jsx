@@ -5,7 +5,6 @@ import { defaultMediaQueries } from 'React/common/useMediaQuery.js';
 
 /* Components ---------------------------*/
 import Lightbox from 'React/common/Lightbox/Lightbox.jsx';
-import { servicesVersion } from 'typescript';
 
 const ServiceGalleryItem = ({service}) => {
 
