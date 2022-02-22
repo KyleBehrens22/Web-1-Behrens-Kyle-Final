@@ -68,9 +68,14 @@ const Essays = () => {
                 Some cons of being agile include a difficulty in being able to determine future costs of development and implementation. Documentation starts to get buried due to the rush to push out a project, so over time there is less and less documentation to go back and review. There is also the issue of not having a finite end to a project, due to minimal planning at the beginning of a project functionality can take a hit because of that. </p> 
             </Essay>
             <Essay q='S11. What are testing environments? What is the difference between Local, Dev, QA and Production?'>
-            <p> Answer goes here for Monday</p>
+            <li><b>Test Environment:</b> A Test Environment is a server that is set up to allow you to run test cases that you have defined, it is more than just a server it involves hardware and a network configuration. It allows you to create identical environments every time you need to test your product. A test environment allows you to run on different operating systems to see how your application functions across the board. </li>
+            <li><b>Local Testing:</b> Local testing environments mean running your app on your local system. These are tests that you can run in a controlled environment without ruining your already running application. Testing your application on a local server is the first step in the debugging process before you move onto the other stages of deploying. </li>
+            <li><b>Dev Testing:</b> In Dev Testing is when your code is automatically tested so that problems can be discovered and taken care of as quick as possible. Dev Testing helps reduce the the effect of software errors and speeds up the delivery and discovery of bugs before customers can use.</li>
+            <li><b>QA Testing:</b> QA stands for Quality Assurance Testing, it's the process of testing a website in order to discover defects and bugs. There are typically 3 parts to QA Testing; Requirement testing, Design Evaluation and Functionality Testing. In requirement testing the tester takes into account the list of requirements the client has approved. Design testing tests the appearance of the website, making sure it fits the clients approved designs and functions appropriately in multi-faceted devices such as desktops, tablets and mobile phones. Functionality testing evaluated the UI/UX and makes sure that each link and button functions as designed, this testing occurs over all kinds of different browsers and platforms.</li>
+            <li><b>Production Testing:</b> Production Testing of TiP is a set of tests in a live environment. It helps to focus on limited areas of functionalities. TiP should be done by the QA team. Testing in production does not mean deploying the application to the real-world. Another use for this environment is to conduct A/B testing where you van gauge which version of a site users prefer. </li>
             </Essay>
-            
+            <Essay q='S12. Function vs Form: When are web images considered part of the content (HTML) as opposed to part of the appearance (CSS)?'>
+            </Essay>
         </EssaysStyled>
     )
 }
