@@ -77,6 +77,10 @@ const Essays = () => {
             </ul>
             </Essay>
             <Essay q='S12. Function vs Form: When are web images considered part of the content (HTML) as opposed to part of the appearance (CSS)?'>
+                <p> CSS images can be visible but they have accessibility issues. HTML image tags are used for accessibility and SEO purposes, otherwise a CSS image is better for performance, speed and manipulation. HTML image tags should be considered if the the image is supposed to be part of the content, if not it should be coded using CSS. When you use HTML tags you can also use alt tags in the case of using something like a ‘warning’ that way no matter the connection the user can always receive the message. </p>
+            </Essay>
+            <Essay q='S13. What is the difference between IDs, Classes and Tags? How does Specificity play a role in the selection of HTML elements (both in CSS and JS)'>
+                <p></p>
             </Essay>
         </EssaysStyled>
     )
