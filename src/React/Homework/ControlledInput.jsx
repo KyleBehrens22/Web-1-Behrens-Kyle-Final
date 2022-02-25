@@ -1,32 +1,28 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 import styled from 'styled-components';
 
-const Login = () => {
+const ControlledInput = () => {
 
     const [username, usernameUpdate] = useState('');
 
     const handleChange = (e) => {
         console.log('User Wrote' , e.target.value);
         usernameUpdate(e.target.value);
-    } 
+    }
 
     return (
-        <LoginStyled className='Login'>
-            <h1>Login</h1> 
-
+        <ControlledInputStyled className='ControlledInput'>
+            <h3>Controlled Input</h3>
             <input
                 value={ username }
                 onChange={ handleChange }
             />
-
-
-
-        </LoginStyled>
+        </ControlledInputStyled>
     );
 }
 
-export default Login;
+export default ControlledInput;
 
-const LoginStyled = styled.div`
+const ControlledInputStyled = styled.div`
     
 `;
