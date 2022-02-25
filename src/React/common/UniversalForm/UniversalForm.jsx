@@ -9,15 +9,24 @@ import reducer from './Context/reducer.js';
 import Form from './Form.jsx';
 import Feedback from './Feedback.jsx';
 
+
 /* Exposed Components ---------------------------*/
 export { default as Input } from './Controls/Input.jsx';
 export { default as Textarea } from './Controls/Textarea.jsx';
 export { default as SubmitButton } from './Controls/SubmitButton.jsx';
 
-const UniversalForm = ({children}) => {
+const UniversalForm = ({children, apiUrl, onSubmit}) => {
 
     const defaultFormData = {
-        sample: 'My Sample Data',
+        apiUrl: apiUrl,
+        onSubmit: onSubmit,
+        payload: {},
+        feedback: {
+            show: false,
+            type: 'pending',
+            message: '',
+        },
+        fields: [],
     };
     
     const [state, dispatch] = useReducer(reducer, defaultFormData);
