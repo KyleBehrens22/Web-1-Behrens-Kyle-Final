@@ -80,9 +80,18 @@ const Essays = () => {
                 <p> CSS images can be visible but they have accessibility issues. HTML image tags are used for accessibility and SEO purposes, otherwise a CSS image is better for performance, speed and manipulation. HTML image tags should be considered if the the image is supposed to be part of the content, if not it should be coded using CSS. When you use HTML tags you can also use alt tags in the case of using something like a ‘warning’ that way no matter the connection the user can always receive the message. </p>
             </Essay>
             <Essay q='S13. What is the difference between IDs, Classes and Tags? How does Specificity play a role in the selection of HTML elements (both in CSS and JS)'>
-                <p></p>
+                <ul>
+                <li><b>IDs:</b> Are unique, each element can have only one ID, and each page can have only one element with that ID. If you use the same ID on more than one element your code will fail. IDs also have special browser capabilities such as the “hash” element. Anything with the ID after the # in the URL will take you directly to that part of the page. ID selectors map to instances </li>
+                <li><b>CLASSES:</b> Are not unique, classes can be used on multiple elements and you can use multiple classes on the same element. Styling information that needs to applies to multiple objects should be done using classes. It is recommended to use classes in your HTML attributes for CSS styling because they are safer.</li>
+                <li><b>TAGS:</b> Map to classes. When deciding which to use, you need to decide whether the style you're creating applies to that one thing, all things like it, or anything that wants it. They are used to speicifially identify which section of the app to apply attributes to.  </li>
+                <li><b>Specificity:</b> If there are two conflicting rules that point to the same element. The page should point to the item with greater precedence. You can give every ID selector a value of 100 every class selector a value of 10 and every HTML selcetor a value of 1. Whichever has the highest specificity value will win and its style will be applied to the element  </li>
+                </ul>
+            </Essay>
+            <Essay q="S14. What is a CSS Preprocessor? What are some examples? In React, what are styled components? How do Styled Components violate separation of concerns?">
+                <p>Answer will go here for Thursday.</p>
             </Essay>
         </EssaysStyled>
+        
     )
 }
 
