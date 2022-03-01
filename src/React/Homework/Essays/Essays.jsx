@@ -100,4 +100,4 @@ export default Essays;
 const EssaysStyled = styled.div`
     background-color: white;
     padding: 20px;
-`;
+`;  
