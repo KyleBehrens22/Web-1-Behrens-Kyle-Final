@@ -21,7 +21,7 @@ const Login = ({children, id, label}) => {
                     label='Username'
                     id='username'
                     placeholder="user@domain.com"
-                    rules={ ['required'] }
+                    rules={ ['required', 'email'] }
                 />
                 <Input 
                     label='Password'
