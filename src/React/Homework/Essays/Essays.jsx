@@ -88,7 +88,12 @@ const Essays = () => {
                 </ul>
             </Essay>
             <Essay q="S14. What is a CSS Preprocessor? What are some examples? In React, what are styled components? How do Styled Components violate separation of concerns?">
-                <p>Answer will go here for Thursday.</p>
+                <li><b>CSS Preprocessor:</b> CSS Preprocessor: Puts together code that is written using a unique compiler. They then use that to create a CSS file and it can be referenced by the main HTML document. Preprocessors are a unique advanced stylesheet language that developers can leverage to create leaner, faster apps with more features and not spending as much time as you would using regular CSS.</li>
+                <li><b>Types of CSS Preprocessors:</b> LESS and SASS they are well supported and have Cleary defined syntax and are already used by millions of websites. Stylus is another example of a CSS preprocessor. All preprocessors do similar things but with their own syntax and each of them have unique advanced features as well.</li>
+                <li><b>Styled-components in React:</b> They allow us to write CSS within JavaScript in a modular reusable way. Instead of having one global CSS file for a React project you can leverage styled-components for enhancing your experience as a developer.</li>
+                <li><b>How do Styled-Components violate separation of concern?</b> Many components have render methods that end up containing different style objects that create clutter and split the CSS into two places, making the code harder to parse. Styled Components help keep the concerns of styling and element architecture separated and make components more readable. The separation of Concern is the practice of separating a program into distinct sections using styled components seems to lump CSS together with JS. Instead of relying on 2 separate style objects, using a react styled components makes it easier to inject values that only exist in JS and CSS while allowing CSS to handle different UI states.</li>
+            </Essay>
+            <Essay q='S15. Final Project Eassay goes here:'>
             </Essay>
         </EssaysStyled>
         
