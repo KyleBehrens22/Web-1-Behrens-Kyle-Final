@@ -98,7 +98,7 @@ const Essays = () => {
                 <p> I chose this subject because I have always had a dream of opening my own restaurant. It is not in my immediate plans to open one but if I can get good enough at web design, I would love to help out small businesses with their web presence to help them compete against the big chains who have almost unlimited resources.</p>
             </Essay>
             <Essay q='S16. What is the difference between Web Hosts, Domains, and FTP?'>
-                <p> Answer goes here </p>
+                <p> Answer goes hered </p>
             </Essay>
         </EssaysStyled>
         
