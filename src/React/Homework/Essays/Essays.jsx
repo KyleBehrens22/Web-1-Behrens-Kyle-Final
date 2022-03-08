@@ -93,7 +93,12 @@ const Essays = () => {
                 <li><b>Styled-components in React:</b> They allow us to write CSS within JavaScript in a modular reusable way. Instead of having one global CSS file for a React project you can leverage styled-components for enhancing your experience as a developer.</li>
                 <li><b>How do Styled-Components violate separation of concern?</b> Many components have render methods that end up containing different style objects that create clutter and split the CSS into two places, making the code harder to parse. Styled Components help keep the concerns of styling and element architecture separated and make components more readable. The separation of Concern is the practice of separating a program into distinct sections using styled components seems to lump CSS together with JS. Instead of relying on 2 separate style objects, using a react styled components makes it easier to inject values that only exist in JS and CSS while allowing CSS to handle different UI states.</li>
             </Essay>
-            <Essay q='S15. Final Project Eassay goes here:'>
+            <Essay q='S15. Final Project Eassay Subject:'>
+                <p> For my project I want to create a website for a pizzeria that I have always wanted to start. I chose a pizzeria because I think it’s something you can have a lot of fun with as far as designing a website goes. Websites bring in a lot more customers because of the convenience in today’s digital world, now instead of ordering over the phone you can just google your favorite pizza place and browse the menu and schedule deliveries or pickup.</p>
+                <p> I chose this subject because I have always had a dream of opening my own restaurant. It is not in my immediate plans to open one but if I can get good enough at web design, I would love to help out small businesses with their web presence to help them compete against the big chains who have almost unlimited resources.</p>
+            </Essay>
+            <Essay q='S16. What is the difference between Web Hosts, Domains, and FTP?'>
+                <p> Answer goes here </p>
             </Essay>
         </EssaysStyled>
         
