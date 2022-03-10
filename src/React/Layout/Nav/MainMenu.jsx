@@ -14,7 +14,7 @@ const clickHandler = () => {
     return (
         <MainMenuStyled className='MainMenu'>
             <NavLink onClick={ clickHandler } to={ '/' } exact>Welcome</NavLink>
-            <NavLink onClick={ clickHandler } to={ '/services' }>Services</NavLink>
+            <NavLink onClick={ clickHandler } to={ '/services' }>Menu</NavLink>
             <NavLink onClick={ clickHandler } to={ '/contact' }>Contact</NavLink>
             <NavLink onClick={ clickHandler } to={ '/login' }>Login</NavLink>
             <NavLink onClick={ clickHandler } to={ '/homework' }>Homework</NavLink>
@@ -29,7 +29,7 @@ const MainMenuStyled = styled.div`
         display: block;
         color: white;
         margin: 5px 0px;
-        background-color: #007373;
+        background-color: #f93e3e;
         height: 50px;
         line-height: 55px;
         text-decoration: none;
@@ -41,11 +41,11 @@ const MainMenuStyled = styled.div`
         font-weight: bold;
 
         &:hover {
-            background-color: #038484;
+            background-color: #ffcd51;
         }
         &.active {
-            color: #007373;
-            background-color: #AEE6E6;
+            color: #ffffff;
+            background-color: #54d378;
         }
 
     }

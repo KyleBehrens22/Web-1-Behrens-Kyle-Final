@@ -19,7 +19,7 @@ const SiteLogo = () => {
 export default SiteLogo;
 
 const SiteLogoStyled = styled.div`
-    color: #13bbbb;
+    color: #ffffff;
     width: 100%;
     height: 100%;
 
