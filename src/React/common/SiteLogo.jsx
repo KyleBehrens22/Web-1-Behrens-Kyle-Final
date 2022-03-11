@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { 
-    faHotTub,
+    faHotTub, faPizzaSlice,
 } from '@fortawesome/free-solid-svg-icons';
 
 
@@ -11,7 +11,7 @@ const SiteLogo = () => {
 
     return (
         <SiteLogoStyled className='SiteLogo'>
-            <FontAwesomeIcon icon={ faHotTub } className='hot-tub-icon' />
+            <FontAwesomeIcon icon={ faPizzaSlice } className='hot-tub-icon' />
         </SiteLogoStyled>
     );
 }
