@@ -22,7 +22,7 @@ export default ServiceMenuItem;
 const ServiceMenuItemStyled = styled.div`
 width: 150px;
 font-size: 18px;
-border-bottom: solid 5px teal;
+border-bottom: solid 5px #f93e3e;
 line-height: 40px;
 text-align: center;
 margin: 5px;
@@ -32,7 +32,7 @@ cursor: pointer;
     background-color: #eeeeee;
 }
 &.active {
-        background-color: teal;
+        background-color: #f93e3e;
         color: white;
     }
 `;

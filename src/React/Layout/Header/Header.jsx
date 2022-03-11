@@ -20,7 +20,7 @@ export default Header;
 
 const HeaderStyled = styled.header`
     background-color: #f93e3e;
-    padding: 60px 0px;
+    padding: 10px 10px;
     display: flex;
     justify-content: center;
 
