@@ -5,7 +5,7 @@ const SiteTitle = () => {
 
     return (
         <SiteTitleStyled className='SiteTitle'>
-            <h2>Kyle's Pizzeria</h2>
+            <h2>Ky's Pies</h2>
             <h3>Los Angeles, CA</h3>
         </SiteTitleStyled>
     );
