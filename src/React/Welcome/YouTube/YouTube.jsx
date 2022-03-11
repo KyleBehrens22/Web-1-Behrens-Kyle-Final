@@ -1,14 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import ReactPlayer from 'react-player'
 import Video from './Video.jsx';
 
 const YouTube = () => {
 
     return (
         <YouTubeStyled className='YouTube'>
-            YouTube 
-            <Video />
+        <ReactPlayer url='https://youtu.be/DPuAAkYiE1I' />
         </YouTubeStyled>
     );
 }
