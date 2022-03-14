@@ -102,6 +102,11 @@ const Essays = () => {
                 <li><b>Web Host:</b> Provides a space to store all of your files for your website. To buy web hosting space, they require you to already have a domain. There are three main types of web hosting; Shared, Managed and Dedicated. Shared means a bunch of other websites are hosted on the same shared server, this is the best option for small websites, the biggest problem being is if one website in the shared server gets a huge surge of traffic the other sites on that server will be affected. Dedicated web hosting is when a website has its own server for a lot more bandwidth and allow more traffic. Managed adds a whole suite of tools to install thing like Word Press and you can manage files and email and sometimes comes with a team of developers to help you with any problems.</li>
                 <li><b>FTP:</b> Stands for File Transfer Protocol. It is a standard network protocol used to transfer files between a client and a server on a computer network. It allows you to make changes to a website securely, even if it is a large volume of files. It transfers files using a TCP/IP network.</li>
             </Essay>
+            <Essay q='S17. What is a Package Manager (e.g. NPM, Composer)? How does it play a role in software development?'>
+                <li><b> What is a package manager?</b> </li>
+                <li><b> What role does it play in software development?</b> </li>
+            
+            </Essay>
         </EssaysStyled>
         
     )

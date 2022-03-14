@@ -11,7 +11,7 @@ const Staff = () => {
 
     return (
         <StaffStyled className='Staff'>
-            <h3>Staff</h3> 
+            <h3>Our Space</h3> 
             <div className="wrapper">
                 {
                     staffData.map((member, idx) => {
