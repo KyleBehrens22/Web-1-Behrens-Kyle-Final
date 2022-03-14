@@ -18,5 +18,11 @@ const YouTube = () => {
 export default YouTube;
 
 const YouTubeStyled = styled.div`
+    display: flex;
+    margin-bottom: 20px;
+    padding: 20px 225px;
+    background-color: #f93e3e;
+    color: white;
+    
     
 `;

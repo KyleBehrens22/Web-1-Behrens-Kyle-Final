@@ -21,7 +21,7 @@ const EssayStyled = styled.div`
 
     h3 {
         margin= 0px;
-        background-color: teal;
+        background-color: #169342;
         padding: 10px 20px;
         color: white;
     }
