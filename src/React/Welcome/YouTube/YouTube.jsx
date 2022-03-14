@@ -8,8 +8,7 @@ const YouTube = () => {
 
     return (
         <YouTubeStyled className='react-player'>
-        <ReactPlayer url='https://youtu.be/DPuAAkYiE1I' />
-        
+        <ReactPlayer width='960px' height='540px' controls url='https://youtu.be/DPuAAkYiE1I' />
         </YouTubeStyled>
     );
 }
@@ -22,6 +21,5 @@ const YouTubeStyled = styled.div`
     padding: 20px;
     justify-content: center;
     position: relative;
-    background-color: #f93e3e;
-    color: white;    
+    background-color: #f93e3e;  
 `; 
