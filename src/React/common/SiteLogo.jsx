@@ -16,6 +16,7 @@ export default SiteLogo;
 
 const SiteLogoStyled = styled.div`
     color: #ffffff;
+    justify-content: center;
     width: 100%;
     height: 100%;
 `;
