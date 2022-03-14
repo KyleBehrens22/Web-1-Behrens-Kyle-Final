@@ -7,13 +7,12 @@ import Video from './Video.jsx';
 const YouTube = () => {
 
     return (
-        <YouTubeStyled className='YouTube'>
+        <YouTubeStyled className='react-player'>
         <ReactPlayer url='https://youtu.be/DPuAAkYiE1I' />
+        
         </YouTubeStyled>
     );
 }
-
-
 
 export default YouTube;
 
@@ -24,8 +23,5 @@ const YouTubeStyled = styled.div`
     justify-content: center;
     position: relative;
     background-color: #f93e3e;
-    color: white;
-    
-    
-    
-`;
+    color: white;    
+`; 

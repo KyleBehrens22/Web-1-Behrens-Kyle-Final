@@ -15,7 +15,7 @@ const Essay = ({q, children}) => {
 export default Essay;
 
 const EssayStyled = styled.div`
-    background-color: gray;
+    background-color:  #f93e3e;
     margin: 20px 0px;
     border: solid 2px teal;
 
