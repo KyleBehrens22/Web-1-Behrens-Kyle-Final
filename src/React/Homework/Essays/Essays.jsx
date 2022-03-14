@@ -103,9 +103,8 @@ const Essays = () => {
                 <li><b>FTP:</b> Stands for File Transfer Protocol. It is a standard network protocol used to transfer files between a client and a server on a computer network. It allows you to make changes to a website securely, even if it is a large volume of files. It transfers files using a TCP/IP network.</li>
             </Essay>
             <Essay q='S17. What is a Package Manager (e.g. NPM, Composer)? How does it play a role in software development?'>
-                <li><b> What is a package manager?</b> </li>
-                <li><b> What role does it play in software development?</b> </li>
-            
+                <li><b> What is a package manager?</b> That are a collection of software tools that automates different aspects of creating computer program, such as; installing, upgrading, configuring, and removing programs from an application. Package Managers make it so that when you are developing your app you don’t have to reinvent the wheel and while working on a project you are able to “package” it and publish for other to use.</li>
+                <li><b> What role does it play in software development?</b> Package managers deal with distributions of software and data in archive files. Metadata is also stored in a a package, ie the name, description of its purpose, version number, vendor and a list of dependencies that are needed for the software to run properly.</li>
             </Essay>
         </EssaysStyled>
         
