@@ -33,17 +33,17 @@ const Contact = ({children, id, label}) => {
                 <Input 
                     label='Address'
                     id='Address'
-                    type='email'
+                    type='Address'
                     placeholder="Street Name, City, State, Zip"
                     rules={ ['required', 'address'] }
                 />
                 <Textarea 
                     label='Order'
                     id='message'
-                    placeholder="I was wondering about.."
+                    placeholder="I would like to order.."
                     rules={ ['required'] }
                 />
-                <SubmitButton>Send Email</SubmitButton>
+                <SubmitButton>Send Order</SubmitButton>
             </UniversalForm>
         </ContactStyled>
     );

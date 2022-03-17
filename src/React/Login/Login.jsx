@@ -12,7 +12,7 @@ const Login = ({children, id, label}) => {
 
     return (
         <LoginStyled className='Login'>
-            <h1>Login</h1>
+            <h1>Member Login</h1>
             <UniversalForm
                 apiUrl='/user/login'
                 onSubmit={ onSubmitHandler }
