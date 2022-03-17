@@ -9,7 +9,7 @@ const Welcome = () => {
 
     return (
         <WelcomeStyled className='Welcome'>
-            <h1>Welcome</h1> 
+            <h1></h1> 
             <YouTube />
             <Tabbed />
             <Staff />
